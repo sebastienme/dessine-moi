@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessine-moi &#127912;</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+
+</head>
+<body>
+    <div class="desktop">
+        <header></header>
+        <div class="flex-container">
+            <div class="title">Pixel Art</div>
+            <div class="intro"></div>
+            <div class="master-container">
+                <div class="container-one">
+                    <div class="light-brite">
+                        <div class="point">
+                            <span class="material-symbols-outlined" style="font-size: 30px;">settings_brightness</span>
+                            Lite-Brite
+                        </div>
+                        <div class="my-switch">
+                            <label class="switch">
+                                <input type="checkbox" id="togBtn">
+                                <div class="slider round">
+                                <!--ADDED HTML -->
+                                <span class="on"></span>
+                                <span class="off"></span>
+                                <!--END-->
+                                </div>
+                            </label>
+                        </div>    
+                    </div>
+                    <div class="grid">
+                        <div class="point">
+                            <span class="material-symbols-outlined" style="font-size: 30px;">grid_on</span>
+                            Taille de la grille
+                        </div>    
+                        <div class="buttons">
+                            <button class="btn-grid" alt="5">5 x 5</button>
+                            <button class="btn-grid" alt="10">10 x 10</button>
+                            <button class="btn-grid" alt="15">15 x 15</button>
+                            <button class="btn-grid" alt="20">20 x 20</button>
+                            <button class="btn-grid" alt="40">40 x 40</button>
+                        </div>    
+                    </div>
+                    <div class="color">
+                        <div class="point">
+                            <span class="material-symbols-outlined" style="font-size: 30px;">palette</span>
+                            Couleur des tuiles
+                        </div>
+                        <div class="buttons">
+                            <button class="btn-color black"></button>
+                            <button class="btn-color white"></button>
+                            <button class="btn-color red"></button>
+                            <button class="btn-color orange"></button>
+                            <button class="btn-color yellow"></button>
+                            <button class="btn-color green"></button>
+                            <button class="btn-color blue"></button>
+                            <button class="btn-color purple"></button>
+                            <button class="btn-color pink"></button>
+                            <button class="btn-color random"></button>
+                        </div>       
+                    </div>
+                </div>
+                <div class="container"></div>
+                <div class="container-three">
+                    <div class="instructions">
+                        <span>Instructions</span>
+                    </div>
+                    <ul>
+                        <li>1. Choisis le mode d'affichage</li>
+                        <li>2. Choisis la taille de la grille</li>
+                        <li>3. Choisis la couleur</li>
+                        <li>4. «Dessine-moi comme une de tes françaises» -Rose</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>        
+        <footer> Droit d'auteur Sébastien Meslage 🔮 </footer>
+    </div>
+    <div class="mobile">
+        <div class="oops">Oops..</div>
+        <div>Si tu désires voir le contenu, il faut être sur desktop.</div>
+        <div class="small-desktop">Si tu es sur ton desktop, essaye de réduire le zoom.</div>
+    </div>    
+    <script src="myScript.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Original+Surfer&family=Righteous&display=swap');
+
+.desktop {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gainsboro;
+    font-family: 'Boogaloo', cursive;
+    color: rgb(53, 51, 51);
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Boogaloo', cursive;
+}
+
+header {
+    align-self: center;
+ }
+
+.title {
+    text-align: center;
+    font-family: 'Original Surfer', cursive;
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    min-height: 35px;
+}
+
+.intro-yes {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.master-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    font-size: 30px;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.color {
+    color: rgb(53, 51, 51);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.point {
+    display: flex;
+    gap: 6px;
+}
+
+.light-brite {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.my-switch {
+    padding-left: 10px;
+}
+
+/*Lite Brite button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(167, 167, 167);
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(53, 51, 51);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(55px);
+  }
+  
+  /*------ ADDED CSS ---------*/
+  .on
+  {
+    display: none;
+  }
+  
+  .on, .off
+  {
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+  }
+  
+  input:checked+ .slider .on
+  {display: block;}
+  
+  input:checked + .slider .off
+  {display: none;}
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;}
+/*--------- END toggle button --------*/
+
+/* Buttons class below */
+    .black {
+        color: black;
+        background-color: black;
+    }
+    
+    .black:hover {
+        color: white;
+        background-color: black;
+        border-color: black;
+    }
+
+    .white {
+        color: white;
+        background-color: white;
+    }
+    
+    .white:hover {
+        color: rgb(53, 51, 51);
+        background-color: white;
+        border-color: white;
+    }
+
+    .red {
+        color: rgb(223, 71, 71);
+        background-color: rgb(223, 71, 71);
+    }
+    
+    .red:hover {
+        color: white;
+        background-color: rgb(223, 71, 71);
+        border-color: rgb(223, 71, 71);
+    }
+
+    .orange {
+        color: rgb(255, 118, 38);
+        background-color: rgb(255, 118, 38);
+    }
+    
+    .orange:hover {
+        color: white;
+        background-color: rgb(255, 118, 38);
+        border-color: rgb(255, 118, 38);
+    }
+
+    .yellow {
+        color: rgb(255, 217, 49);
+        background-color: rgb(255, 217, 49);
+    }
+    
+    .yellow:hover {
+        color: white;
+        background-color: rgb(255, 217, 49);
+        border-color: rgb(255, 217, 49);
+    }
+
+    .green {
+        color: rgb(47, 218, 70);
+        background-color: rgb(47, 218, 70);
+    }
+    
+    .green:hover {
+        color: white;
+        background-color: rgb(47, 218, 70);
+        border-color: rgb(47, 218, 70);
+    }
+
+    .blue {
+        color: rgb(0, 61, 230);
+        background-color: rgb(0, 61, 230);
+    }
+    
+    .blue:hover {
+        color: white;
+        background-color: rgb(0, 61, 230);
+        border-color: rgb(0, 61, 230);
+    }
+
+    .purple {
+        color: rgb(88, 0, 230);
+        background-color: rgb(88, 0, 230);
+    }
+    
+    .purple:hover {
+        color: white;
+        background-color: rgb(88, 0, 230);
+        border-color: rgb(88, 0, 230);
+    }
+
+    .pink {
+        color: rgb(233, 85, 225);
+        background-color: rgb(233, 85, 225);
+    }
+    
+    .pink:hover {
+        color: white;
+        background-color: rgb(233, 85, 225);
+        border-color: rgb(233, 85, 225);
+    }
+
+    .random {
+        color: gainsboro;
+        background-color: gainsboro;
+    }
+    
+    .random:hover {
+        color: white;
+        background-color: gainsboro;
+        border-color: gainsboro;
+    }
+    
+
+
+
+/* end buttons */    
+
+.btn-color {
+    border: 4px solid;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
+    cursor: pointer;
+    margin: 6px;;
+}
+
+.btn-color:hover {
+    transform: scale(1.1);
+}
+
+.btn-color:active {
+    box-shadow: 0 4px #aaaaaa;
+    transform: translateY(4px);
+  }
+
+.grid {
+    color: rgb(53, 51, 51);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-grid {
+    background-color: gainsboro;
+    color: rgb(53, 51, 51);
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 4px;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px #aaaaaa;
+}
+
+.btn-grid:hover {
+    background-color: rgb(53, 51, 51);
+    color: gainsboro;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn-grid:active {
+    box-shadow: 0 2px #aaaaaa;
+    transform: translateY(4px);
+}
+
+.mode {
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border: 0.5px solid grey;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.container-5 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.container-10 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.container-15 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.container-20 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.container-40 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px;
+    grid-template-rows: 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px;
+    grid-auto-flow: row;
+    margin: 20px;
+}
+
+.square {
+    background-color: gainsboro;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.container-three {
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 126px;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.instructions {
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    color: gainsboro;
+    font-weight: 300; 
+    background-color: rgb(53, 51, 51); 
+    min-width: 100%;
+    padding: 16px;
+}
+
+.mobile {
+    display: none;
+}
+
+.small-desktop {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .desktop {display: none;}
+    .small-desktop {
+        display: flex;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: rgb(53, 51, 51);
+        background-color: gainsboro;
+        font-family: 'Boogaloo', cursive;
+        font-size: 30px;
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+
+    .oops {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .small-desktop {display: none;}
+}
