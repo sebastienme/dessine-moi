@@ -342,6 +342,7 @@ header {
     grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .container-5 {
@@ -353,6 +354,7 @@ header {
     grid-template-rows: 120px 120px 120px 120px 120px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .container-10 {
@@ -364,6 +366,7 @@ header {
     grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .container-15 {
@@ -375,6 +378,7 @@ header {
     grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .container-20 {
@@ -386,6 +390,7 @@ header {
     grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .container-40 {
@@ -397,6 +402,7 @@ header {
     grid-template-rows: 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px 15px;
     grid-auto-flow: row;
     margin: 20px;
+    box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .square {
