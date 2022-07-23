@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Original+Surfer&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .desktop {
     display: flex;
@@ -6,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: gainsboro;
-    font-family: 'Boogaloo', cursive;
+    font-family: 'Quantico', sans-serif;
     color: rgb(53, 51, 51);
 }
 
@@ -17,7 +18,8 @@
 }
 
 button {
-    font-family: 'Boogaloo', cursive;
+    font-family: 'Quantico', sans-serif;
+
 }
 
 header {
@@ -26,8 +28,8 @@ header {
 
 .title {
     text-align: center;
-    font-family: 'Original Surfer', cursive;
-    font-size: 100px;
+    font-family: 'Iceland', cursive;
+    font-size: 175px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -36,13 +38,20 @@ header {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    min-height: 35px;
+    min-height: 45px;
 }
 
 .intro-yes {
     display: flex;
     justify-content: center;
-    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.score {
+    min-width: 65px;
+    display: flex;
+    justify-content: center;
 }
 
 .master-container {
@@ -56,7 +65,8 @@ header {
     justify-content: center;
     gap: 70px;
     font-size: 30px;
-    max-width: 350px;
+    font-weight: 700;
+    max-width: 375px;
     min-width: 250px;
 }
 
@@ -70,6 +80,7 @@ header {
 .point {
     display: flex;
     gap: 6px;
+    align-items: center;
 }
 
 .light-brite {
@@ -312,7 +323,7 @@ header {
     border: 1px solid;
     border-radius: 25px;
     padding: 4px;
-    font-size: 20px;
+    font-size: 17px;
     box-shadow: 2px 2px 1px #aaaaaa;
 }
 
@@ -411,7 +422,7 @@ header {
 }
 
 .container-three {
-    min-width: 350px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     padding-top: 126px;
@@ -421,6 +432,7 @@ header {
 
 .instructions {
     font-size: 30px;
+    font-weight: 700;
 }
 
 ul {
@@ -459,6 +471,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         height: 100vh;
         color: rgb(53, 51, 51);
         background-color: gainsboro;

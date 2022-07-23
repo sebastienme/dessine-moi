@@ -45,18 +45,21 @@ function createGrid (size) {
             if (getComputedStyle(square).getPropertyValue('background-color') == userColor) {
                 score = score;
             } else {
-                score = score + 1;
+                score += 1;
             }
             square.style.backgroundColor = `${userColor}`;
             intro.classList.toggle('intro-yes');
-            intro.innerHTML = `Nombre de tuiles dessinées: ${score}`;
+            intro.innerHTML = `Nombre de tuiles dessinées: <span class="score">${score}</span>`;
             
             if (score == 1001) {
                 alert("T'es game de te rendre a 2000!");
+                score += 1;
             } else if (score == 2001) {
                 alert("Tu es une personne persistante. Bravo!");
+                score += 1;
             } else if (score == 2501) {
                 alert("Je peux peut-être changer d'avis..");
+                score += 1;
             } else if (score == 3001) {
                 alert("ok arrête.");
             }
